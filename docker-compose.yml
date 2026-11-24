@@ -1,0 +1,57 @@
+
+name: tastora
+
+services:
+  admin:
+    image: souvik217/tastora-admin:latest
+    pull_policy: missing
+    env_file:
+      - ./services/admin/.env.docker
+    ports:
+      - "5006:5006"
+    restart: unless-stopped
+
+  auth:
+    image: souvik217/tastora-auth:latest
+    pull_policy: missing
+    env_file:
+      - ./services/auth/.env.docker
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  restaurant:
+    image: souvik217/tastora-restaurant:latest
+    pull_policy: missing
+    env_file:
+      - ./services/restaurant/.env.docker
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
+
+  utils:
+    image: souvik217/tastora-utils:latest
+    pull_policy: missing
+    env_file:
+      - ./services/utils/.env.docker
+    ports:
+      - "5002:5002"
+    restart: unless-stopped
+
+  realtime:
+    image: souvik217/tastora-realtime:latest
+    pull_policy: missing
+    env_file:
+      - ./services/realtime/.env.docker
+    ports:
+      - "5004:5004"
+    restart: unless-stopped
+
+  rider:
+    image: souvik217/tastora-rider:latest
+    pull_policy: missing
+    env_file:
+      - ./services/rider/.env.docker
+    ports:
+      - "5005:5005"
+    restart: unless-stopped
