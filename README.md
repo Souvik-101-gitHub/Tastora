@@ -5,6 +5,9 @@ Tastora is a full-stack food ordering and delivery platform inspired by modern f
 
 - GitHub: [Souvik-101-gitHub](https://github.com/Souvik-101-gitHub)
 - Project: [Tastora](https://github.com/Souvik-101-gitHub/Tastora)
+
+  <img width="3508" height="2480" alt="Tastora_All_Screenshots" src="https://github.com/user-attachments/assets/f586f51b-e2db-4b88-8e2e-125b38e0cb66" />
+
   
 ## 🚀 Features
 
