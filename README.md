@@ -22,7 +22,7 @@ Tastora is a full-stack food ordering and delivery platform inspired by modern f
 - **Asynchronous Communication:** RabbitMQ-based messaging between backend services.
 - **Admin Dashboard:** Manage restaurants and riders.
   
-## System Architecture
+## website images
    <img width="3508" height="2480" alt="Tastora_All_Screenshots" src="https://github.com/user-attachments/assets/f586f51b-e2db-4b88-8e2e-125b38e0cb66" />
 
 ### Microservices Architecture
