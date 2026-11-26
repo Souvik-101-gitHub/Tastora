@@ -6,7 +6,7 @@ Tastora is a full-stack food ordering and delivery platform inspired by modern f
 - GitHub: [Souvik-101-gitHub](https://github.com/Souvik-101-gitHub)
 - Project: [Tastora](https://github.com/Souvik-101-gitHub/Tastora)
 
-  <img width="3508" height="2480" alt="Tastora_All_Screenshots" src="https://github.com/user-attachments/assets/f586f51b-e2db-4b88-8e2e-125b38e0cb66" />
+ 
 
   
 ## 🚀 Features
@@ -21,6 +21,13 @@ Tastora is a full-stack food ordering and delivery platform inspired by modern f
 - **Online Payments:** Integrated Razorpay and Stripe payment gateways.
 - **Asynchronous Communication:** RabbitMQ-based messaging between backend services.
 - **Admin Dashboard:** Manage restaurants and riders.
+  
+## System Architecture
+   <img width="3508" height="2480" alt="Tastora_All_Screenshots" src="https://github.com/user-attachments/assets/f586f51b-e2db-4b88-8e2e-125b38e0cb66" />
+
+### Microservices Architecture
+<img width="1518" height="962" alt="Tastora_Microservices_Architecture drawio" src="https://github.com/user-attachments/assets/290372ba-de6c-42dd-8f75-88891ad69776" />
+
 
 ## 🛠️ Tech Stack
 
